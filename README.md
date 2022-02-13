@@ -8,8 +8,8 @@ Repositório Criado para salvar código do sistema de cadastro
 - [x] Criar Database
 - [x] Criar tabela pessoa
 - [x] Criar função de listagem de usuários
-- [ ] Criar função de pesquisa de usuário por Id e por nome
-- [ ] Criar função de inserção de usuários
-- [ ] Criar Remoção de usuário
-- [ ] Criar função de inserção de usuários em lote
+- [x] Criar função de pesquisa de usuário por Id e por nome
+- [x] Criar função de inserção de usuários
+- [x] Criar Remoção de usuário
+- [x] Criar função de inserção de usuários em lote
 - [ ] Criar sistema de logs

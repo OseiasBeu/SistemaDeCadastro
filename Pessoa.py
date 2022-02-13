@@ -9,14 +9,33 @@ class Pessoa:
         # print(data)
         return data
 
-    def inserirUsuario(self):
-        print('usuário inserido!')
+    def buscaPessoaPorNome(self,nome):
+        data = self.db.buscaPessoaPorNome(nome)
+        return data
+
+    def buscaPessoaPorId(self,id):
+        data = self.db.buscaPessoaPorId(id)
+        return data
+
+        
+    def inserirPessoa(self,nome,email):
+        data = self.db.inserirPessoa(nome,email)
+        return data
+
+    def inserirLote(self,caminho):
+        data = self.db.inserirLote(caminho)
+        return data
+
     
-    def removeUsuario(self):
-        print('Remove usuário!')
+    def removeUsuarioPorNome(self,nome):
+        data = self.db.removeUsuarioPorNome(nome)
+        return data
+
+    def removeUsuarioPorId(self,id):
+        data = self.db.removeUsuarioPorId(id)
+        return data
 
 
-p = Pessoa()
-p.todosUsuarios()
-p.inserirUsuario()
-p.removeUsuario()
+# p = Pessoa()
+# p.todosUsuarios()
+# p.buscaPessoaPorNome('Cristian')
