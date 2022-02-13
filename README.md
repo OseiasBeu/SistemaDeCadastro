@@ -2,8 +2,8 @@
 Repositório Criado para salvar código do sistema de cadastro
 
 # To Do:
-- [ ] Criar projeto no gitHub "Iniital Commit"
-- [ ] Criar grid do frontend no pySimpleGui
+- [x] Criar projeto no gitHub "Inital Commit"
+- [x] Criar grid do frontend no pySimpleGui
 - [ ] Criar Classe Pessoa
 - [ ] Criar Database
 - [ ] Criar tabela pessoa
